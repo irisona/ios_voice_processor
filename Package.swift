@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "ios_voice_processor",
             dependencies: [],
+            path: "",
             exclude: [
                 "example"
             ]),
