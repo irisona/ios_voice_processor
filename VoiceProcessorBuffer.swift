@@ -7,6 +7,8 @@
 //  specific language governing permissions and limitations under the License.
 //
 
+import Foundation
+
 /// A circular buffer for storing 16-bit integer audio samples.
 public class VoiceProcessorBuffer {
     private var buffer: [Int16]
